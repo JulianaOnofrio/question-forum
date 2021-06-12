@@ -2,12 +2,14 @@ package br.com.juliana.questionforum.model;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Topic {
 
 	private Long id;
-	private String titulo;
-	private String mensagem;
+	private String title;
+	private String message;
 	private LocalDateTime creationDate = LocalDateTime.now();
 	private StatusTopic status = StatusTopic.NOT_ANSWERED;
 	private User author;

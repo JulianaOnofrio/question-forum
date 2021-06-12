@@ -2,6 +2,7 @@ package br.com.juliana.questionforum.controller;
 
 import br.com.juliana.questionforum.controller.dto.TopicDto;
 import br.com.juliana.questionforum.model.Topic;
+import br.com.juliana.questionforum.model.Course;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

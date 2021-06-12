@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 public class Answer {
 
 	private Long id;
-	private String mensagem;
+	private String message;
 	private Topic topic;
 	private LocalDateTime creationDate = LocalDateTime.now();
 	private User author;
